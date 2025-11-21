@@ -29,8 +29,8 @@ const Hero = () => {
                         }}
                         className="text-5xl md:text-7xl font-extrabold text-primary mb-6 leading-tight"
                     >
-                        Learn, Play, <br />
-                        <span className="text-secondary">Grow Together!</span>
+                        Love, Care, <br />
+                        <span className="text-secondary">And Concern</span>
                     </motion.h1>
                     <motion.p
                         variants={{
