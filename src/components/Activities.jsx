@@ -55,7 +55,7 @@ const Activities = () => {
     };
 
     return (
-        <section id="programs" className="py-20 bg-blue-50 dark:bg-gray-800">
+        <section id="programs" className="py-20 bg-blue-50 dark:bg-slate-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial="hidden"
@@ -90,7 +90,7 @@ const Activities = () => {
                             key={index}
                             variants={cardVariants}
                             whileHover={{ y: -10, scale: 1.02, transition: { duration: 0.3 } }}
-                            className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700"
+                            className="bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-slate-700"
                         >
                             <motion.div
                                 whileHover={{ rotate: 6, scale: 1.1 }}

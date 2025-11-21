@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
     return (
-        <section id="home" className="relative bg-gradient-to-b from-background to-white dark:from-gray-900 dark:to-gray-800 py-20 overflow-hidden">
+        <section id="home" className="relative bg-gradient-to-b from-background to-white dark:from-slate-900 dark:to-slate-800 py-20 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
 
                 {/* Text Content */}

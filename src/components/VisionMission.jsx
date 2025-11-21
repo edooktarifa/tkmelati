@@ -34,7 +34,7 @@ const VisionMission = () => {
     };
 
     return (
-        <section id="vision" className="py-20 bg-white dark:bg-gray-900">
+        <section id="vision" className="py-20 bg-white dark:bg-slate-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial="hidden"
@@ -68,7 +68,7 @@ const VisionMission = () => {
                     <motion.div
                         variants={cardVariants}
                         whileHover={{ y: -10, transition: { duration: 0.3 } }}
-                        className="bg-background dark:bg-gray-800 rounded-3xl p-8 text-center hover:shadow-xl transition-shadow duration-300"
+                        className="bg-background dark:bg-slate-800 rounded-3xl p-8 text-center hover:shadow-xl transition-shadow duration-300"
                     >
                         <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white">
                             <Target size={32} />
@@ -83,7 +83,7 @@ const VisionMission = () => {
                     <motion.div
                         variants={cardVariants}
                         whileHover={{ y: -10, transition: { duration: 0.3 } }}
-                        className="bg-background dark:bg-gray-800 rounded-3xl p-8 text-center hover:shadow-xl transition-shadow duration-300"
+                        className="bg-background dark:bg-slate-800 rounded-3xl p-8 text-center hover:shadow-xl transition-shadow duration-300"
                     >
                         <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white">
                             <Heart size={32} />
@@ -100,7 +100,7 @@ const VisionMission = () => {
                     <motion.div
                         variants={cardVariants}
                         whileHover={{ y: -10, transition: { duration: 0.3 } }}
-                        className="bg-background dark:bg-gray-800 rounded-3xl p-8 text-center hover:shadow-xl transition-shadow duration-300"
+                        className="bg-background dark:bg-slate-800 rounded-3xl p-8 text-center hover:shadow-xl transition-shadow duration-300"
                     >
                         <div className="bg-accent w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white">
                             <Star size={32} />

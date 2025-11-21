@@ -86,11 +86,11 @@ const Testimonials = () => {
     // But for simplicity, let's just show what's there.
 
     return (
-        <section id="testimonials" className="py-20 bg-white overflow-hidden">
+        <section id="testimonials" className="py-20 bg-white dark:bg-slate-900 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-extrabold text-text mb-4">Kata Orang Tua</h2>
-                    <p className="text-xl text-gray-600">Apa kata mereka tentang TK Melati.</p>
+                    <h2 className="text-4xl font-extrabold text-text dark:text-white mb-4">Kata Orang Tua</h2>
+                    <p className="text-xl text-gray-600 dark:text-gray-300">Apa kata mereka tentang TK Melati.</p>
                 </div>
 
                 <div className="relative">
@@ -106,12 +106,12 @@ const Testimonials = () => {
                                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                             >
                                 {visibleTestimonials.map((testimonial) => (
-                                    <div key={testimonial.id} className="bg-background p-8 rounded-3xl relative shadow-lg border border-gray-100 h-full flex flex-col">
+                                    <div key={testimonial.id} className="bg-background dark:bg-slate-800 p-8 rounded-3xl relative shadow-lg border border-gray-100 dark:border-slate-700 h-full flex flex-col">
                                         <Quote className="absolute top-6 left-6 text-primary opacity-20" size={48} />
-                                        <p className="text-gray-700 text-lg italic mb-6 relative z-10 flex-grow">"{testimonial.text}"</p>
+                                        <p className="text-gray-700 dark:text-gray-300 text-lg italic mb-6 relative z-10 flex-grow">"{testimonial.text}"</p>
                                         <div>
-                                            <h4 className="font-bold text-text text-xl">{testimonial.name}</h4>
-                                            <p className="text-sm text-gray-500">{testimonial.child}</p>
+                                            <h4 className="font-bold text-text dark:text-white text-xl">{testimonial.name}</h4>
+                                            <p className="text-sm text-gray-500 dark:text-gray-400">{testimonial.child}</p>
                                         </div>
                                     </div>
                                 ))}

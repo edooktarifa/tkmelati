@@ -38,7 +38,7 @@ const TeacherProfiles = () => {
     };
 
     return (
-        <section id="teachers" className="py-20 bg-background dark:bg-gray-900 overflow-hidden">
+        <section id="teachers" className="py-20 bg-background dark:bg-slate-900 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}

@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 const MapSection = () => {
     return (
-        <section id="map" className="py-20 bg-white dark:bg-gray-900">
+        <section id="map" className="py-20 bg-white dark:bg-slate-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
 
@@ -48,7 +48,7 @@ const MapSection = () => {
                     </div>
 
                     {/* Map Embed */}
-                    <div className="h-96 bg-white dark:bg-gray-800 rounded-3xl shadow-xl overflow-hidden p-2">
+                    <div className="h-96 bg-white dark:bg-slate-800 rounded-3xl shadow-xl overflow-hidden p-2">
                         <iframe
                             src="https://www.google.com/maps?q=TK%20Melati%2C%20Jl.%20Tanjung%20Duren%20Utara%203%20No.9%2C%20Jakarta%20Barat&output=embed"
                             width="100%"
